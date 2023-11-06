@@ -70,6 +70,7 @@ function play() {
     //5번의 기회를 다 쓰면 게임이 끝남. (더이상 추측 불가, 버튼이 disable)
     if (chances < 1) {
         gameOver = true;
+        resultArea.textContent = 'ㅂㅅ ㅋㅋ';
     }
     if (gameOver == true) {
         playButton.disabled = true;
