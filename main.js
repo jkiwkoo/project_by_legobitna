@@ -20,7 +20,10 @@ let userHistory = [];
 
 //go 라는 버튼을 누른다.
 playButton.addEventListener('click', play);
+
+//reset 라는 버튼을 누른다.
 resetButton.addEventListener('click', reset);
+
 //썻던 숫자를 자동으로 지워주기.
 userInput.addEventListener('focus', function () {
     userInput.value = '';
@@ -82,8 +85,9 @@ function play() {
 function reset() {
     userInput.value = '';
     pickRandomNum();
+    playButton.disabled = false;
 
-    resultArea.textContent = '결과가 나온다.';
+    resultArea.textContent = '1부터 100 사이에 있는 숫자를 맞추세요.';
 }
 
 pickRandomNum();
