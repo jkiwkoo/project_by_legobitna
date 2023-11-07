@@ -85,8 +85,11 @@ function play() {
 function reset() {
     userInput.value = '';
     pickRandomNum();
+    gameOver = false;
     playButton.disabled = false;
-
+    chances = 5;
+    chanceArea.innerHTML = `남은 기회: ${chances}`;
+    userHistory = [];
     resultArea.textContent = '1부터 100 사이에 있는 숫자를 맞추세요.';
 }
 
