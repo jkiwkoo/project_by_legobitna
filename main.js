@@ -9,10 +9,10 @@
 //유저가 이미 입력한 숫자를 또 입력하면 알려줌. 기회를 깎지 않는다.
 
 let computerNum = 0;
-let playButton = document.getElementById('play-button');
+let playButton = document.querySelector('.play-button');
 let userInput = document.getElementById('user-input');
 let resultArea = document.getElementById('result-area');
-let resetButton = document.getElementById('reset-button');
+let resetButton = document.querySelector('.reset-button');
 let chances = 5;
 let gameOver = false;
 let chanceArea = document.getElementById('chance-area');
