@@ -10,24 +10,29 @@
     </head>
     <body>
         <div class="container">
-            <h1>고윤정과 함께하는</h1>
-            <h1>술게임</h1>
-            <h1>죽음의 업 & 다운</h1>
-            <div id="result-area">1부터 100 사이에 있는 숫자를 맞추세요.</div>
-            <div id="chance-area">남은 기회 : 5 번</div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6">
-                    <input
-                        type="number"
-                        id="user-input"
-                        class="form-control mt-5 mb-5"
-                        placeholder="1부터 100까지 숫자를 입력"
-                    />
+            <div class="row">
+                <div class="col-md-xs">
+                    <h1>고윤정과 함께하는</h1>
+                    <h1>술게임</h1>
+                    <h1>죽음의 업 & 다운</h1>
+                    <div id="result-area">1부터 100 사이에 있는 숫자를 맞추세요.</div>
+                    <div id="chance-area">남은 기회 : 5 번</div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6">
+                            <input
+                                type="number"
+                                id="user-input"
+                                class="form-control mt-5 mb-5"
+                                placeholder="1부터 100까지 숫자를 입력"
+                            />
+                        </div>
+                        <button class="btn btn-primary mt-3 button-style play-button">Go</button>
+                        <button class="btn btn-danger mt-3 button-style reset-button">Reset</button>
+                    </div>
                 </div>
-                <button class="btn btn-primary mt-3 button-style play-button">Go</button>
-                <button class="btn btn-danger mt-3 button-style reset-button">Reset</button>
             </div>
         </div>
+
         <script src="main.js"></script>
     </body>
 </html>

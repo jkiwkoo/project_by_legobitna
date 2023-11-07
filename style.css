@@ -1,5 +1,6 @@
 body {
-    background-size: cover;
+    background-size: auto;
+    width: 100%;
     height: 100vh;
     background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5119%2F2023%2F09%2F04%2F0000892495_001_20230904070201243.jpg&type=sc960_832);
 }
@@ -8,7 +9,7 @@ body {
     border: 1px solid white;
     border-radius: 20px;
     text-align: center;
-    background-color: rgba(247, 243, 242, 0.3);
+    background-color: rgba(247, 243, 242, 0.4);
 }
 
 .button-style {
